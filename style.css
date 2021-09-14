@@ -1,0 +1,116 @@
+@font-face {
+    font-family: aniron;
+    src: url('anirm__.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./assets/Fondo\ gollum.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: aniron;
+    height: 100vh;
+    color: rgb(206, 206, 68);
+}
+
+header {
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    width: 80px;
+    top: 25px;
+    left: 90px;
+}
+
+header nav {
+    position: absolute;
+    padding: 30px 50px 0 0;
+    bottom: 0;
+    right: 100px;
+    top: 15px;
+}
+
+header nav a {
+    display: inline;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 40px;
+    width: 80px;
+    text-align: center;
+    color: rgb(206, 206, 68);
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+#main {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#main .anduril {
+    position: absolute;
+    width: 125px;
+    left: -40px;
+    top: -90px;
+}
+
+#main h1 {
+    position: absolute;
+    top: -90px;
+    right: 300px;
+}
+
+#main form {
+    position: absolute;
+    width: 500px;
+    right: 320px;
+    top: 0px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#main form input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(206, 206, 68);
+    background-color: rgba(141, 141, 71, 0.5);
+    font-size: 22px;
+    color: white;
+    margin: 10px 0 10px 0;
+}
+
+#main form .btn {
+    display: block;
+    width: 225px;
+    height: 50px;
+    background-color: rgba(141, 141, 71, 0.5);
+    color: white;
+    font-size: 22px;
+    border: 1px solid rgb(206, 206, 68);
+    border-radius: 10px;
+}
+
+#main form .option {
+    margin: 15px;
+    height: 15px;
+    display: inline-table;
+    width: 20px;
+}
+
+#main form .select {
+    width: 150px;
+    height: 30px;
+    font-size: 22px;
+    border: 2px solid rgb(206, 206, 68);
+}
+
